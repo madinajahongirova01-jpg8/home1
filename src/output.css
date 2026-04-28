@@ -353,6 +353,9 @@
   .min-h-\[300px\] {
     min-height: 300px;
   }
+  .w-\[14px\] {
+    width: 14px;
+  }
   .w-\[18px\] {
     width: 18px;
   }
@@ -1080,6 +1083,11 @@
       width: calc(2 / 5 * 100%);
     }
   }
+  .lg\:w-\[18px\] {
+    @media (width >= 64rem) {
+      width: 18px;
+    }
+  }
   .lg\:w-\[45\%\] {
     @media (width >= 64rem) {
       width: 45%;
@@ -1316,6 +1324,11 @@
   .lg\:p-\[30px\] {
     @media (width >= 64rem) {
       padding: 30px;
+    }
+  }
+  .lg\:p-\[35px\] {
+    @media (width >= 64rem) {
+      padding: 35px;
     }
   }
   .lg\:p-\[40px\] {
